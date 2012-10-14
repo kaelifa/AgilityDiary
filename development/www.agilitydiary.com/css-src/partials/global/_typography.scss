@@ -1,0 +1,42 @@
+html {
+	font-size: 62.5%;
+}
+body {
+	@include font-size(1.6);
+	// font-size: 16px;
+	line-height: 24px;
+}
+article {
+	max-width: 944px;
+	margin: auto;
+}
+h1 {
+	@include font-size(11.0);
+	// font-size: 110px;
+	line-height: 120px;
+	margin-top: 24px;
+	margin-bottom: 48px;
+}
+h2 {
+	@include font-size(4.2);
+	// font-size: 42px;
+	line-height: 48px;
+	margin-top: 48px;
+	margin-bottom: 24px;
+}
+h3 {
+	@include font-size(2.6);
+	// font-size: 26px;
+	line-height: 48px;
+	margin-top: 24px;
+	margin-bottom: 0px;
+}
+p, ul {
+	margin-top: 0px;
+	margin-bottom: 24px;
+}
+small,
+aside {
+	@include font-size(1.0);
+	// font-size: 10px;
+}
