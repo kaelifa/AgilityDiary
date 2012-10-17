@@ -5,10 +5,10 @@ Syntax error: File to import not found or unreadable: partials/variables/font-st
                 /Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/blueprint/stylesheets
                 /Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets
                 Compass::SpriteImporter
-        on line 10 of /Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/css-src/styles.scss
+        on line 13 of /Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/css-src/styles.scss
 
 Backtrace:
-/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/css-src/styles.scss:10
+/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/css-src/styles.scss:13
 /Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/import_node.rb:64:in `import'
 /Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/import_node.rb:25:in `imported_file'
 /Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:227:in `visit_import'
@@ -54,4 +54,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: partials/variables/font-stacks.\A               Load paths:\A                 /Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/css-src\A                 /Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/blueprint/stylesheets\A                 /Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 10 of /Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/css-src/styles.scss"; }
+  content: "Syntax error: File to import not found or unreadable: partials/variables/font-stacks.\A               Load paths:\A                 /Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/css-src\A                 /Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/blueprint/stylesheets\A                 /Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 13 of /Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/css-src/styles.scss"; }
