@@ -240,12 +240,6 @@ body {
 }
 
 /* line 9, ../css-src/partials/global/_typography.scss */
-article {
-  max-width: 944px;
-  margin: auto;
-}
-
-/* line 13, ../css-src/partials/global/_typography.scss */
 h1 {
   font-size: 110px;
   font-size: 11rem;
@@ -254,7 +248,7 @@ h1 {
   margin-bottom: 48px;
 }
 
-/* line 20, ../css-src/partials/global/_typography.scss */
+/* line 16, ../css-src/partials/global/_typography.scss */
 h2 {
   font-size: 42px;
   font-size: 4.2rem;
@@ -263,7 +257,7 @@ h2 {
   margin-bottom: 24px;
 }
 
-/* line 27, ../css-src/partials/global/_typography.scss */
+/* line 23, ../css-src/partials/global/_typography.scss */
 h3 {
   font-size: 26px;
   font-size: 2.6rem;
@@ -272,13 +266,13 @@ h3 {
   margin-bottom: 0px;
 }
 
-/* line 34, ../css-src/partials/global/_typography.scss */
+/* line 30, ../css-src/partials/global/_typography.scss */
 p, ul {
   margin-top: 0px;
   margin-bottom: 24px;
 }
 
-/* line 39, ../css-src/partials/global/_typography.scss */
+/* line 35, ../css-src/partials/global/_typography.scss */
 small,
 aside {
   font-size: 10px;

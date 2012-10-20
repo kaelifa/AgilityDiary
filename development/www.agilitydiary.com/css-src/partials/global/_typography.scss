@@ -6,10 +6,6 @@ body {
 	// font-size: 16px;
 	line-height: 24px;
 }
-article {
-	max-width: 944px;
-	margin: auto;
-}
 h1 {
 	@include font-size(11.0);
 	// font-size: 110px;
