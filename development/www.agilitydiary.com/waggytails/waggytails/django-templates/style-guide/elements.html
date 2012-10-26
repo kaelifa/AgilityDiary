@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block "title" %}: Style Guide{% endblock %}
+
+{% block "siteHeading" %}Agility Diary{% endblock %}
+
+{% block "pageHeading" %}Style Guide{% endblock %}
+
+{% block "contentMainHeading" %}Elements{% endblock %}
+{% block "content" %}
+	<div class="row">
+		<div class="two columns">
+			<nav class="sticky">
+				<ul>
+				{% for loop_item in elements_list %}
+					<li>
+						<a href="#{{ loop_item.name }}">{{ loop_item.name }}</a>
+					</li>
+				{% endfor %}
+				</ul>
+			</nav>
+		</div>
+		<div class="eight columns">
+			{% for loop_item in elements_list %}
+				<article class="snippet row">
+					<div class="twelve columns">
+						<h4 id="{{ loop_item.name }}">{{ loop_item.name }}</h4>
+
+						<h5>OUTPUT</h5>
+						{{ loop_item.output }}
+
+						<h5>HTML</h5>
+						<textarea cols="30" rows="5">{{ loop_item.escapehtml }}</textarea>
+					</div>
+				</article>
+			{% endfor %}
+		</div>
+	</div>
+{% endblock %}

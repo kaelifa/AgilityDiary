@@ -1,0 +1,5 @@
+{% block "snippet_title" %}Sup{% endblock %}
+
+{% block "snippet_content" %}
+<p>Lorem ipsum dolor sit <sup>amet</sup>, consectetuer adipiscing elit.</p>
+{% endblock %}

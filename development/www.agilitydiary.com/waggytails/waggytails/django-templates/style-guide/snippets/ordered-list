@@ -1,0 +1,28 @@
+{% block "snippet_title" %}Ordered List{% endblock %}
+
+{% block "snippet_content" %}
+<ol>
+	<li>List item</li>
+	<li>List item</li>
+	<li>List item nested unordered list
+		<ul>
+			<li>List item</li>
+			<li>List item</li>
+			<li>List item</li>
+			<li>List item</li>
+			<li>List item</li>
+		</ul>
+	</li>
+	<li>List item nested ordered list
+		<ol>
+			<li>List item</li>
+			<li>List item</li>
+			<li>List item</li>
+			<li>List item</li>
+			<li>List item</li>
+		</ol>
+	</li>
+	<li>List item</li>
+	<li>List item</li>
+</ol>
+{% endblock %}

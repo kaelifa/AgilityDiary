@@ -1,0 +1,5 @@
+{% block "snippet_title" %}Paragraph{% endblock %}
+
+{% block "snippet_content" %}
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+{% endblock %}

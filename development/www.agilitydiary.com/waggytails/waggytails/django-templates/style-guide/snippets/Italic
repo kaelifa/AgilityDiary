@@ -1,0 +1,5 @@
+{% block "snippet_title" %}Italic{% endblock %}
+
+{% block "snippet_content" %}
+<p>Lorem ipsum dolor sit <em>amet</em>, consectetuer adipiscing elit.</p>
+{% endblock %}

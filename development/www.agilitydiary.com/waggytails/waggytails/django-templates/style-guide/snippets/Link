@@ -1,0 +1,5 @@
+{% block "snippet_title" %}Link{% endblock %}
+
+{% block "snippet_content" %}
+<p><a href="#">Link</a></p>
+{% endblock %}

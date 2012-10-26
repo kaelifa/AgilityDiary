@@ -1,0 +1,5 @@
+{% block "snippet_title" %}Bold{% endblock %}
+
+{% block "snippet_content" %}
+<p>Lorem ipsum dolor sit <strong>amet</strong>, consectetuer adipiscing elit.</p>
+{% endblock %}
