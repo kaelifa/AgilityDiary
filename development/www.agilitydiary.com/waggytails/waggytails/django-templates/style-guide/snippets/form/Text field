@@ -1,0 +1,19 @@
+{% block "snippet_content" %}
+<div class="row formTextField">
+	<label for="formTextField_UID">Text field label</label>
+	<input
+		type="text"
+		name="formTextField_UID"
+		id="formTextField_UID"
+		value=""
+		placeholder="Placeholder text"
+	>
+</div>
+{% endblock %}
+
+<!-- a comment here
+
+with some formatting
+
+dot dooo dah
+ -->

@@ -1,0 +1,23 @@
+{% block "snippet_content" %}
+<fieldset class="formRadioField">
+	<legend>Radio button legend</legend>
+	<p>
+		<label for="radio1">
+			<input type="radio" name="radio1" id="radio1" />
+			Radio 1 label
+		</label>
+	</p>
+	<p>
+		<label for="radio2">
+			<input type="radio" name="radio2" id="radio2" />
+			Radio 2 label
+		</label>
+	</p>
+	<p>
+		<label for="radio3">
+			<input type="radio" name="radio3" id="radio3" />
+			Radio 3 label
+		</label>
+	</p>
+</fieldset>
+{% endblock %}

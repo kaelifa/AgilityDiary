@@ -1,9 +1,9 @@
 {% block "snippet_content" %}
-<ol>
+<ul class="disc">
 	<li>List item</li>
 	<li>List item</li>
-	<li>List item nested unordered list
-		<ul>
+	<li>List item nested list
+		<ul class="disc">
 			<li>List item</li>
 			<li>List item</li>
 			<li>List item</li>
@@ -22,5 +22,5 @@
 	</li>
 	<li>List item</li>
 	<li>List item</li>
-</ol>
+</ul>
 {% endblock %}

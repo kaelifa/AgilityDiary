@@ -9,7 +9,8 @@
 {% block "contentMainHeading" %}Elements{% endblock %}
 {% block "content" %}
 	<div class="row">
-		<div class="two columns">
+		<div class="three columns">
+			<div class="panel">
 			<nav class="sticky">
 				<ul>
 				{% for loop_item in elements_list %}
@@ -19,21 +20,27 @@
 				{% endfor %}
 				</ul>
 			</nav>
+			</div>
 		</div>
-		<div class="eight columns">
+		<div class="nine columns">
 			{% for loop_item in elements_list %}
-				<article class="snippet row">
-					<div class="twelve columns">
+				<article class="snippet row {{ loop_item.name }}">
+					<div class="panel">
 						<h4 id="{{ loop_item.name }}">{{ loop_item.name }}</h4>
-
+						<hr />
 						<h5>OUTPUT</h5>
 						{{ loop_item.output }}
 
 						<h5>HTML</h5>
 						<textarea cols="30" rows="5">{{ loop_item.escapehtml }}</textarea>
+
+						{% if loop_item.notes %}
+							<h5>NOTES</h5>
+							<p>{{ loop_item.notes|safe }}</p>
+						{% endif %}
 					</div>
 				</article>
-				<hr />
+
 			{% endfor %}
 		</div>
 	</div>
