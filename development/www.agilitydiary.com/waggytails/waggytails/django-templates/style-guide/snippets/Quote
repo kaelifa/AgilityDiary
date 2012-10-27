@@ -1,0 +1,3 @@
+{% block "snippet_content" %}
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. <q cite="http://www.citationurl.com/">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</q>.</p>
+{% endblock %}

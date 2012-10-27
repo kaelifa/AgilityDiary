@@ -1,5 +1,3 @@
-{% block "snippet_title" %}Sub{% endblock %}
-
 {% block "snippet_content" %}
 <p>Lorem ipsum dolor sit <sub>amet</sub>, consectetuer adipiscing elit.</p>
 {% endblock %}

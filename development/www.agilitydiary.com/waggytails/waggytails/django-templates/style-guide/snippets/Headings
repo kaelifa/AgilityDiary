@@ -1,5 +1,3 @@
-{% block "snippet_title" %}Headings{% endblock %}
-
 {% block "snippet_content" %}
 <h1 class="siteHeading">Site heading</h1>
 <h2 class="pageHeading">Page heading</h2>

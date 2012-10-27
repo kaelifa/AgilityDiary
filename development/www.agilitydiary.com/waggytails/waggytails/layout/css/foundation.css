@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* line 18, ../../../../../../../../../../Library/Ruby/Gems/1.8/gems/ZURB-foundation-2.2.1.4/stylesheets/zurb/_globals.sass */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
@@ -1955,7 +1954,7 @@ form.nice div.form-field input, form.nice input.input-text, form.nice textarea {
   font-size: 1.3rem;
   padding: 6px 3px 4px;
   outline: none !important;
-  background: url('/template-images/misc/input-bg.png?1351325936') white;
+  background: url('static/template-images/misc/input-bg.png?1351325936') white;
 }
 /* line 141, ../../../../../../../../../../Library/Ruby/Gems/1.8/gems/ZURB-foundation-2.2.1.4/stylesheets/zurb/_forms.sass */
 form.nice div.form-field input:focus, form.nice input.input-text:focus, form.nice textarea:focus {
@@ -2036,7 +2035,7 @@ form.custom span.custom {
   position: relative;
   top: 2px;
   border: solid 1px #cccccc;
-  background: url('/template-images/misc/custom-form-sprites.png?1351325936') 0 0 no-repeat;
+  background: url('static/template-images/misc/custom-form-sprites.png?1351325936') 0 0 no-repeat;
 }
 /* line 193, ../../../../../../../../../../Library/Ruby/Gems/1.8/gems/ZURB-foundation-2.2.1.4/stylesheets/zurb/_forms.sass */
 form.custom span.custom.radio {
@@ -2080,7 +2079,7 @@ form.custom div.custom.dropdown a.selector {
   width: 26px;
   height: 26px;
   display: block;
-  background: url('/template-images/misc/custom-form-sprites.png?1351325936') -14px 1px no-repeat;
+  background: url('static/template-images/misc/custom-form-sprites.png?1351325936') -14px 1px no-repeat;
   right: 0;
   top: 0;
   border: solid 1px #dddddd;
@@ -2112,11 +2111,11 @@ form.custom div.custom.dropdown ul li {
 }
 /* line 246, ../../../../../../../../../../Library/Ruby/Gems/1.8/gems/ZURB-foundation-2.2.1.4/stylesheets/zurb/_forms.sass */
 form.custom div.custom.dropdown ul li.selected {
-  background: url('/template-images/misc/custom-form-sprites.png?1351325936') right -52px no-repeat;
+  background: url('static/template-images/misc/custom-form-sprites.png?1351325936') right -52px no-repeat;
 }
 /* line 248, ../../../../../../../../../../Library/Ruby/Gems/1.8/gems/ZURB-foundation-2.2.1.4/stylesheets/zurb/_forms.sass */
 form.custom div.custom.dropdown ul li.selected:hover {
-  background: url('/template-images/misc/custom-form-sprites.png?1351325936') #00a6fc right -78px no-repeat;
+  background: url('static/template-images/misc/custom-form-sprites.png?1351325936') #00a6fc right -78px no-repeat;
 }
 /* line 250, ../../../../../../../../../../Library/Ruby/Gems/1.8/gems/ZURB-foundation-2.2.1.4/stylesheets/zurb/_forms.sass */
 form.custom div.custom.dropdown ul li:hover {
@@ -2181,7 +2180,7 @@ form.custom.nice div.custom.dropdown a.current {
   -moz-border-radius: 2px;
   -o-border-radius: 2px;
   border-radius: 2px;
-  background-image: url('/template-images/misc/input-bg-outset.png?1351325936');
+  background-image: url('static/template-images/misc/input-bg-outset.png?1351325936');
   background-position: bottom right;
 }
 /* line 293, ../../../../../../../../../../Library/Ruby/Gems/1.8/gems/ZURB-foundation-2.2.1.4/stylesheets/zurb/_forms.sass */
@@ -2257,7 +2256,7 @@ div.orbit-wrapper span.rotator {
   position: absolute;
   top: 0;
   left: -20px;
-  background: url('/template-images/orbit/rotator-black.png?1351325936') no-repeat;
+  background: url('static/template-images/orbit/rotator-black.png?1351325936') no-repeat;
   z-index: 3;
 }
 /* line 57, ../../../../../../../../../../Library/Ruby/Gems/1.8/gems/ZURB-foundation-2.2.1.4/stylesheets/zurb/_orbit.sass */
@@ -2279,7 +2278,7 @@ div.orbit-wrapper span.mask {
 div.orbit-wrapper span.mask.move {
   width: 40px;
   left: 0;
-  background: url('/template-images/orbit/timer-black.png?1351325936') repeat 0 0;
+  background: url('static/template-images/orbit/timer-black.png?1351325936') repeat 0 0;
 }
 /* line 72, ../../../../../../../../../../Library/Ruby/Gems/1.8/gems/ZURB-foundation-2.2.1.4/stylesheets/zurb/_orbit.sass */
 div.orbit-wrapper span.pause {
@@ -2289,14 +2288,14 @@ div.orbit-wrapper span.pause {
   position: absolute;
   top: 0;
   left: 0;
-  background: url('/template-images/orbit/pause-black.png?1351325936') no-repeat;
+  background: url('static/template-images/orbit/pause-black.png?1351325936') no-repeat;
   z-index: 4;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
 }
 /* line 82, ../../../../../../../../../../Library/Ruby/Gems/1.8/gems/ZURB-foundation-2.2.1.4/stylesheets/zurb/_orbit.sass */
 div.orbit-wrapper span.pause.active {
-  background: url('/template-images/orbit/pause-black.png?1351325936') no-repeat 0 -40px;
+  background: url('static/template-images/orbit/pause-black.png?1351325936') no-repeat 0 -40px;
 }
 /* line 84, ../../../../../../../../../../Library/Ruby/Gems/1.8/gems/ZURB-foundation-2.2.1.4/stylesheets/zurb/_orbit.sass */
 div.orbit-wrapper div.timer:hover span.pause, div.orbit-wrapper span.pause.active {
@@ -2343,12 +2342,12 @@ div.orbit-wrapper div.slider-nav span {
 }
 /* line 121, ../../../../../../../../../../Library/Ruby/Gems/1.8/gems/ZURB-foundation-2.2.1.4/stylesheets/zurb/_orbit.sass */
 div.orbit-wrapper div.slider-nav span.right {
-  background: url('/template-images/orbit/right-arrow.png?1351325936');
+  background: url('static/template-images/orbit/right-arrow.png?1351325936');
   right: 0;
 }
 /* line 124, ../../../../../../../../../../Library/Ruby/Gems/1.8/gems/ZURB-foundation-2.2.1.4/stylesheets/zurb/_orbit.sass */
 div.orbit-wrapper div.slider-nav span.left {
-  background: url('/template-images/orbit/left-arrow.png?1351325936');
+  background: url('static/template-images/orbit/left-arrow.png?1351325936');
   left: 0;
 }
 
@@ -2369,7 +2368,7 @@ ul.orbit-bullets li {
   cursor: pointer;
   color: #999999;
   text-indent: -99999px;
-  background: url('/template-images/orbit/bullets.jpg?1351325936') no-repeat 4px 0;
+  background: url('static/template-images/orbit/bullets.jpg?1351325936') no-repeat 4px 0;
   width: 13px;
   height: 12px;
   overflow: hidden;
@@ -2421,7 +2420,7 @@ ul.orbit-bullets li {
   cursor: pointer;
   color: #999999;
   text-indent: -9999px;
-  background: url('/template-images/orbit/bullets.jpg?1351325936') no-repeat 4px 0;
+  background: url('static/template-images/orbit/bullets.jpg?1351325936') no-repeat 4px 0;
   width: 13px;
   height: 12px;
   overflow: hidden;
@@ -2475,7 +2474,7 @@ div.caption {
   left: 50%;
   margin-left: -300px;
   width: 520px;
-  background: #eeeeee url('/template-images/misc/modal-gloss.png?1351325936') no-repeat -200px -80px;
+  background: #eeeeee url('static/template-images/misc/modal-gloss.png?1351325936') no-repeat -200px -80px;
   position: absolute;
   z-index: 41;
   padding: 30px 40px 34px;
@@ -3138,290 +3137,4 @@ table.hide-on-tablets {
   .flex-video {
     padding-top: 0;
   }
-}
-/* line 21, ../css-src/partials/global/_normalize.scss */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-nav,
-section,
-summary {
-  display: block;
-}
-
-/* line 31, ../css-src/partials/global/_normalize.scss */
-audio,
-canvas,
-video {
-  display: inline-block;
-}
-
-/* line 40, ../css-src/partials/global/_normalize.scss */
-audio:not([controls]) {
-  display: none;
-  height: 0;
-}
-
-/* line 49, ../css-src/partials/global/_normalize.scss */
-[hidden] {
-  display: none;
-}
-
-/* line 63, ../css-src/partials/global/_normalize.scss */
-html {
-  font-family: sans-serif;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
-
-/* line 73, ../css-src/partials/global/_normalize.scss */
-body {
-  margin: 0;
-}
-
-/* line 85, ../css-src/partials/global/_normalize.scss */
-a:focus {
-  outline: thin dotted;
-}
-
-/* line 94, ../css-src/partials/global/_normalize.scss */
-a:active,
-a:hover {
-  outline: 0;
-}
-
-/* line 107, ../css-src/partials/global/_normalize.scss */
-h1 {
-  font-size: 2em;
-}
-
-/* line 115, ../css-src/partials/global/_normalize.scss */
-abbr[title] {
-  border-bottom: 1px dotted;
-}
-
-/* line 124, ../css-src/partials/global/_normalize.scss */
-b,
-strong {
-  font-weight: bold;
-}
-
-/* line 132, ../css-src/partials/global/_normalize.scss */
-dfn {
-  font-style: italic;
-}
-
-/* line 140, ../css-src/partials/global/_normalize.scss */
-mark {
-  background: #ff0;
-  color: #000;
-}
-
-/* line 152, ../css-src/partials/global/_normalize.scss */
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, serif;
-  font-size: 1em;
-}
-
-/* line 161, ../css-src/partials/global/_normalize.scss */
-pre {
-  white-space: pre;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-}
-
-/* line 171, ../css-src/partials/global/_normalize.scss */
-q {
-  quotes: "\201C" "\201D" "\2018" "\2019";
-}
-
-/* line 179, ../css-src/partials/global/_normalize.scss */
-small {
-  font-size: 80%;
-}
-
-/* line 188, ../css-src/partials/global/_normalize.scss */
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-/* line 195, ../css-src/partials/global/_normalize.scss */
-sup {
-  top: -0.5em;
-}
-
-/* line 199, ../css-src/partials/global/_normalize.scss */
-sub {
-  bottom: -0.25em;
-}
-
-/* line 211, ../css-src/partials/global/_normalize.scss */
-img {
-  border: 0;
-}
-
-/* line 219, ../css-src/partials/global/_normalize.scss */
-svg:not(:root) {
-  overflow: hidden;
-}
-
-/* line 231, ../css-src/partials/global/_normalize.scss */
-figure {
-  margin: 0;
-}
-
-/* line 243, ../css-src/partials/global/_normalize.scss */
-fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
-
-/* line 255, ../css-src/partials/global/_normalize.scss */
-legend {
-  border: 0;
-  padding: 0;
-  white-space: normal;
-}
-
-/* line 270, ../css-src/partials/global/_normalize.scss */
-button,
-input,
-select,
-textarea {
-  font-family: inherit;
-  font-size: 100%;
-  margin: 0;
-}
-
-/* line 282, ../css-src/partials/global/_normalize.scss */
-button,
-input {
-  line-height: normal;
-}
-
-/* line 297, ../css-src/partials/global/_normalize.scss */
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button;
-  cursor: pointer;
-}
-
-/* line 307, ../css-src/partials/global/_normalize.scss */
-button[disabled],
-input[disabled] {
-  cursor: default;
-}
-
-/* line 317, ../css-src/partials/global/_normalize.scss */
-input[type="checkbox"],
-input[type="radio"] {
-  box-sizing: border-box;
-  padding: 0;
-}
-
-/* line 328, ../css-src/partials/global/_normalize.scss */
-input[type="search"] {
-  -webkit-appearance: textfield;
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
-}
-
-/* line 341, ../css-src/partials/global/_normalize.scss */
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-/* line 350, ../css-src/partials/global/_normalize.scss */
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
-/* line 360, ../css-src/partials/global/_normalize.scss */
-textarea {
-  overflow: auto;
-  vertical-align: top;
-}
-
-/* line 373, ../css-src/partials/global/_normalize.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* line 6, ../css-src/partials/global/_typography.scss */
-html {
-  font-size: 62.5%;
-}
-
-/* line 9, ../css-src/partials/global/_typography.scss */
-body {
-  font-size: 16px;
-  font-size: 1.6rem;
-  line-height: 24px;
-}
-
-/* line 14, ../css-src/partials/global/_typography.scss */
-h2, h3, h4, h5 {
-  font-family: 'Quicksand', Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: normal;
-}
-
-/* line 18, ../css-src/partials/global/_typography.scss */
-h1 {
-  font-size: 110px;
-  font-size: 11rem;
-  font-family: 'Quicksand', Arial, "Helvetica Neue", Helvetica, sans-serif;
-  line-height: 120px;
-  margin-top: 24px;
-  margin-bottom: 48px;
-}
-
-/* line 26, ../css-src/partials/global/_typography.scss */
-h2 {
-  font-size: 42px;
-  font-size: 4.2rem;
-  line-height: 48px;
-  margin-top: 48px;
-  margin-bottom: 24px;
-}
-
-/* line 33, ../css-src/partials/global/_typography.scss */
-h3 {
-  font-size: 26px;
-  font-size: 2.6rem;
-  line-height: 48px;
-  margin-top: 24px;
-  margin-bottom: 0;
-}
-
-/* line 40, ../css-src/partials/global/_typography.scss */
-p, ul {
-  margin-top: 0;
-  margin-bottom: 24px;
-}
-
-/* line 45, ../css-src/partials/global/_typography.scss */
-small,
-aside {
-  font-size: 10px;
-  font-size: 1rem;
 }
