@@ -4,7 +4,6 @@
 		class="nice radius large blue button"
 		type="submit"
 		value="Submit"
-		placeholder="Placeholder text"
-	>
+	/>
 </div>
 {% endblock %}

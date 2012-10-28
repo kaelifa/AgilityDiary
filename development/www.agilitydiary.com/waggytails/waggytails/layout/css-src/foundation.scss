@@ -2,12 +2,12 @@
 @import "settings";
 
 // Importing all of Foundation
-@import "ZURB-foundation";
+// @import "ZURB-foundation";
 
 // Import Each Specific Piece for SCSS
-// @import "zurb/shared";
+@import "zurb/shared";
 // @import "zurb/globals";
-// @import "zurb/grid";
+@import "zurb/grid";
 // @import "zurb/typography";
 // @import "zurb/buttons";
 // @import "zurb/ui";

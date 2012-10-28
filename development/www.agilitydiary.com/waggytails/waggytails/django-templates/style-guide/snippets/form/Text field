@@ -7,7 +7,7 @@
 		id="formTextField_UID"
 		value=""
 		placeholder="Placeholder text"
-	>
+	/>
 </div>
 {% endblock %}
 

@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block "title" %}: Login{% endblock %}
+
+{% block "pageHeading" %}Login{% endblock %}
+
+{% block "contentMainHeading" %}Contents{% endblock %}
+{% block "content" %}
+	<form action="" class="formLogin">
+		<div class="row formTextField">
+			<label for="loginUsername">Username</label>
+			<input
+				type="text"
+				name="loginUsername"
+				id="loginUsername"
+				value=""
+				placeholder="Enter username"
+				required
+			/>
+		</div>
+		<div class="row formPasswordField">
+			<label for="loginPassword">Password</label>
+			<input
+				type="text"
+				name="loginPassword"
+				id="loginPassword"
+				value=""
+				placeholder="Enter password"
+				required
+			/>
+		</div>
+		<div class="row formSubmit">
+			<input
+				class="nice radius large blue button"
+				type="submit"
+				value="Login"
+			/>
+		</div>
+	</form>
+{% endblock %}
