@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block "title" %}: Login{% endblock %}
+
+{% block "pageHeading" %}Login{% endblock %}
+
+{% block "content" %}
+	<p><a href="/registration/register">Register with AgilityDiary</a></p>
+	{% if form.errors %}
+	<p class="error">Your username and password didn't match. Please try again.</p>
+	{% endif %}
+
+	<form method="post" action="{% url django.contrib.auth.views.login %}" class="formLogin">
+		{% csrf_token %}
+		<div class="row formTextField">
+			{{ form.username.label_tag }}
+			{{ form.username }}
+		</div>
+		<div class="row formPasswordField">
+			{{ form.password.label_tag }}
+			{{ form.password }}
+		</div>
+		<div class="row formSubmit">
+			<input
+				class="nice radius large blue button"
+				type="submit"
+				value="Login"
+			/>
+			<input type="hidden" name="next" value="{{ next }}" />
+		</div>
+	</form>
+{% endblock %}

@@ -1,6 +1,6 @@
 {% block "snippet_content" %}
 <div class="row formTextarea">
 	<label for="formTextarea_UID">Textarea label</label>
-	<textarea name="" id="" cols="30" rows="10"></textarea>
+	<textarea name="" id="" cols="30" rows="10">&#160;</textarea>
 </div>
 {% endblock %}
