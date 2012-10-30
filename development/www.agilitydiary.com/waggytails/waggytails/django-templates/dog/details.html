@@ -4,7 +4,18 @@
 
 {% block "pageHeading" %}Dog Details{% endblock %}
 
-{% block "contentMainHeading" %}Contents{% endblock %}
+{% block "contentMainHeading" %}This is the dog details page{% endblock %}
 {% block "content" %}
-	This is the dog details page
+	<p>Hello: {{ dog }}</p>
+	{% if dog %}
+	you have a dog
+	{% else %}
+	<p>Please add your dog</p>
+	{% endif %}
+	<form method="post">
+		{% csrf_token %}
+		{{ form.as_p }}
+		<button>Submit</button>
+	</form>
 {% endblock %}
+

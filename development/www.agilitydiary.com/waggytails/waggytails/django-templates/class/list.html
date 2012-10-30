@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block "title" %}: List of Class(es){% endblock %}
+
+{% block "pageHeading" %}List of Class(es){% endblock %}
+
+{% block "contentMainHeading" %}This is the list of class(es) page{% endblock %}
+{% block "content" %}
+	<p><a href="{% url waggytails.views.class_details %}">Add a class</a></p>
+	<ol>
+		{% for class_row in dogs %}
+		<li><a href="{% url waggytails.views.class_details id=class.id %}">{{ class.name }}</a></li>
+		{% endfor %}
+	</ol>
+{% endblock %}

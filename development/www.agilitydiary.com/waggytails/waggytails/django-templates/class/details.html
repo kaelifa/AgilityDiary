@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block "title" %}: Class Details{% endblock %}
+
+{% block "pageHeading" %}Class Details{% endblock %}
+
+{% block "contentMainHeading" %}This is the class details page{% endblock %}
+{% block "content" %}
+	<p>Hello: {{ class_row }}</p>
+	{% if class_row %}
+	you have a class_row
+	{% else %}
+	<p>Please add your class</p>
+	{% endif %}
+	<form method="post">
+		{% csrf_token %}
+		{{ form.as_p }}
+		<button>Submit</button>
+	</form>
+{% endblock %}

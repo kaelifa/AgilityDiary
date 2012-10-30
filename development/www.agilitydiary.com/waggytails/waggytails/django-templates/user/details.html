@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block "title" %}: User Details{% endblock %}
+
+{% block "pageHeading" %}User Details{% endblock %}
+
+{% block "contentMainHeading" %}This is the logged in user details page{% endblock %}
+{% block "content" %}
+	<p>Hello: {{ dog }}</p>
+	<form method="post">
+		{% csrf_token %}
+		{{ form.as_p }}
+		<button>Submit</button>
+	</form>
+{% endblock %}
+

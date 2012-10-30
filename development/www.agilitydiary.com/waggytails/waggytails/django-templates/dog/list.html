@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block "title" %}: List of Dog(s){% endblock %}
+
+{% block "pageHeading" %}List of Dog(s){% endblock %}
+
+{% block "contentMainHeading" %}This is the list of dog(s) page{% endblock %}
+{% block "content" %}
+	<p><a href="{% url waggytails.views.dog_details %}">Add a dog</a></p>
+	<ol>
+		{% for dog in dogs %}
+		<li><a href="{% url waggytails.views.dog_details id=dog.id %}">{{ dog.name }}</a></li>
+		{% endfor %}
+	</ol>
+{% endblock %}
