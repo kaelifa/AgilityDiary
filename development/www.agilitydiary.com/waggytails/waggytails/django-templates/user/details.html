@@ -6,7 +6,7 @@
 
 {% block "contentMainHeading" %}This is the logged in user details page{% endblock %}
 {% block "content" %}
-	<p>Hello: {{ dog }}</p>
+	<p>Hello: XX {{ user }} - {{ username }} - {{ first_name }}</p>
 	<form method="post">
 		{% csrf_token %}
 		{{ form.as_p }}
