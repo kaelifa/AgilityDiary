@@ -31,13 +31,15 @@
 	</header>
 	<div class="row">
 		<div class="twelve">
-			You are logged in as  {{ user }}
+			<p>You are logged in as  {{ user }}</p>
+			<p><a href="/">Home</a></p>
 		</div>
 	</div>
 
 	<div class="row">
 		<div class="twelve">
 			<h3>{% block "contentMainHeading" %}Contents{% endblock %}</h3>
+			{% block "sharedContent" %}{% endblock %}
 			{% block "content" %}
 				This is the base page Contents
 			{% endblock %}

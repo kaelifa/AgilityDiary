@@ -7,6 +7,16 @@
 {% block "pageHeading" %}Home page{% endblock %}
 
 {% block "contentMainHeading" %}Contents{% endblock %}
+{% block "sharedContent" %}
+	<div>
+		<ul>
+			<li><a href="class/list">Class list</a></li>
+			<li><a href="dog/list">Dog list</a></li>
+			<li><a href="show/list">Show list</a></li>
+			<li><a href="my-details">User details</a></li>
+		</ul>
+	</div>
+{% endblock %}
 {% block "content" %}
 	This is the logged out home page contents area
 {% endblock %}
