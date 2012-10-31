@@ -7,8 +7,8 @@
 {% block "contentMainHeading" %}This is the list of show(s) page{% endblock %}
 {% block "content" %}
 	<ol>
-		{% for dog in dogs %}
-		<li><a href="{% url waggytails.views.dog_details id=dog.id %}">{{ dog.name }}</a></li>
+		{% for show in shows %}
+		<li><a href="{% url waggytails.views.show_details id=show.id %}">{{ show.name }}</a></li>
 		{% endfor %}
 	</ol>
 {% endblock %}
