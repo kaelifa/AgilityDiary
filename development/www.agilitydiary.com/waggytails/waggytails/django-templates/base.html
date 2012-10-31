@@ -23,23 +23,28 @@
 </head>
 <body>
 	<header class="layout-header row">
-		<div class="twelve">
-			<h1>{% block "siteHeading" %}Agility Diary{% endblock %}</h1>
+		<div class="nine columns">
+			<h1><a href="{% url waggytails.views.home %}">{% block "siteHeading" %}AgilityDiary{% endblock %}</a></h1>
 			<h2>{% block "pageHeading" %}Base HTML Page{% endblock %}</h2>
-			<hr />
+		</div>
+		<div class="three columns">
+			<p>You are logged in as: <strong>{{ user }}</strong> ~ <a href="">Logout</a> </p>
+			{% block "primaryNav" %}
+				<ul>
+					<li><a href="{% url waggytails.views.dog_list %}">Dogs</a></li>
+					<li><a href="{% url waggytails.views.calendar_view %}">Calendar</a></li>
+					<li><a href="{% url waggytails.views.show_list %}">Show list</a></li>
+					<li><a href="{% url waggytails.views.user_details %}">My details</a></li>
+				</ul>
+			{% endblock %}
 		</div>
 	</header>
-	<div class="row">
-		<div class="twelve">
-			<p>You are logged in as  {{ user }}</p>
-			<p><a href="/">Home</a></p>
-		</div>
-	</div>
 
 	<div class="row">
 		<div class="twelve">
 			<h3>{% block "contentMainHeading" %}Contents{% endblock %}</h3>
-			{% block "sharedContent" %}{% endblock %}
+			{% block "sharedContent" %}
+			{% endblock %}
 			{% block "content" %}
 				This is the base page Contents
 			{% endblock %}
@@ -47,7 +52,7 @@
 	</div>
 	<footer class="layout-footer row">
 		{% block "pageFooter" %}
-			Page Footer
+			<p>Copyright ~ <a href="{% url waggytails.views.site_contact %}">Contact</a> ~ <a href="{% url waggytails.views.site_about %}">About</a></p>
 		{% endblock %}
 	</footer>
 </body>
