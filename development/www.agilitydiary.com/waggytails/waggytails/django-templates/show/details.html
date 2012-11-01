@@ -1,10 +1,14 @@
 {% extends "base.html" %}
+{% load custom %}
 
 {% block "title" %}: Show Details{% endblock %}
 
-{% block "pageHeading" %}Show Details{% endblock %}
+{% block "pageHeading" %}{{ show_row }} Details{% endblock %}
 
-{% block "contentMainHeading" %}This is the show details page{% endblock %}
+{% block "contentMainHeading" %}
+	This is the show details page for: {{ show_row }}
+{% endblock %}
+
 {% block "content" %}
 	{% if show_row %}
 	{% else %}
@@ -12,8 +16,19 @@
 	{% endif %}
 	<form method="post">
 		{% csrf_token %}
-		{{ form.as_p }}
-		<button>Submit</button>
+
+		{% for field_name in form %}
+		<div class="formField form{{ field_name.field.widget|widget_name }}">
+			<label for="{{ field_name.id_for_label }}">{{ field_name.label }}</label>
+			{{ field_name }}
+			{% if field_name.errors %}
+				{{ field_name.errors }}
+			{% endif %}
+		</div>
+		{% endfor %}
+		<div class="formField formSubmit">
+			<button>Submit</button>
+		</div>
 	</form>
 {% endblock %}
 

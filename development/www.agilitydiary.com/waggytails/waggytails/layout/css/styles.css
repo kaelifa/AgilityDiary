@@ -642,18 +642,39 @@ h6 {
   font-size: 1.4rem;
 }
 
-/* line 54, ../css-src/partials/global/_typography.scss */
+/* line 55, ../css-src/partials/global/_typography.scss */
+.formField,
 p,
 ul {
   margin-top: 0;
   margin-bottom: 24px;
 }
 
-/* line 59, ../css-src/partials/global/_typography.scss */
+/* line 60, ../css-src/partials/global/_typography.scss */
 small,
 aside {
   font-size: 10px;
   font-size: 1rem;
+}
+
+/* line 4, ../css-src/partials/global/_form.scss */
+.formSubmit {
+  padding-left: 33%;
+}
+
+/* line 7, ../css-src/partials/global/_form.scss */
+.errorlist {
+  color: red;
+  font-weight: bold;
+  list-style: none;
+  padding-left: 33%;
+}
+
+/* line 13, ../css-src/partials/global/_form.scss */
+label {
+  cursor: pointer;
+  display: inline-block;
+  width: 33%;
 }
 
 /* line 1, ../css-src/partials/helpers/_sticky.scss */

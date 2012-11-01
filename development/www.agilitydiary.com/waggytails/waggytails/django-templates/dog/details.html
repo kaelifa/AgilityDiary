@@ -1,12 +1,14 @@
 {% extends "base.html" %}
+{% load custom %}
 
 {% block "title" %}: Dog Details{% endblock %}
 
-{% block "pageHeading" %}Dog Details{% endblock %}
+{% block "pageHeading" %}{{ dog }}'s Details{% endblock %}
 
-{% load custom %}
+{% block "contentMainHeading" %}
+	This is the dog details page for: {{ dog }}
+{% endblock %}
 
-{% block "contentMainHeading" %}This is the dog details page{% endblock %}
 {% block "content" %}
 	{% if dog %}
 		<p><a href="{% url waggytails.views.dog_details %}">Add a dog</a></p>
@@ -24,7 +26,9 @@
 		</div>
 		{% endfor %}
 
-		<button>Submit</button>
+		<div class="formField formSubmit">
+			<button>Submit</button>
+		</div>
 	</form>
 	{% if dog %}
 		<p><a href="{% url waggytails.views.dog_details %}">Add a dog</a></p>
