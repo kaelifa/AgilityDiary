@@ -6,10 +6,14 @@
 
 {% block "contentMainHeading" %}This is the list of dog(s) page{% endblock %}
 {% block "content" %}
-	<p><a href="{% url waggytails.views.dog_details %}">Add a dog</a></p>
+	{% if dog %}
+	{% else %}
+		<p><a href="{% url waggytails.views.dog_details %}">Add a dog</a></p>
+	{% endif %}
 	<ol>
 		{% for dog in dogs %}
 		<li><a href="{% url waggytails.views.dog_details id=dog.id %}">{{ dog.name }}</a></li>
 		{% endfor %}
 	</ol>
+	<p><a href="{% url waggytails.views.dog_details %}">Add a dog</a></p>
 {% endblock %}

@@ -1,7 +1,25 @@
 {% extends "home/logged-out.html" %}
 
-{% block "pageHeading" %}Logged in Home page{% endblock %}
+{% block "pageHeading" %}
+	{% if dog %}
+		<a href="{% url waggytails.views.dog_details %}">Add a dog</a>
+	{% else %}
+		Record results
+	{% endif %}
+{% endblock %}
+
+{% block "contentMainHeading" %}
+
+{% endblock %}
 
 {% block "content" %}
-	This is the <strong>logged in</strong> Page Contents area
+	<ol>
+		{% for dog in dogs %}
+		<li><a href="{% url waggytails.views.dog_details id=dog.id %}">{{ dog.name }}</a></li>
+		{% endfor %}
+	</ol>
+	{% if dog %}
+	{% else %}
+		<p><a href="{% url waggytails.views.dog_details %}">Add a dog</a></p>
+	{% endif %}
 {% endblock %}

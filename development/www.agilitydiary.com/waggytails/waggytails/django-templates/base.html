@@ -28,9 +28,12 @@
 			<h2>{% block "pageHeading" %}Base HTML Page{% endblock %}</h2>
 		</div>
 		<div class="three columns">
+			<!-- TODO: - Logout -->
 			<p>You are logged in as: <strong>{{ user }}</strong> ~ <a href="">Logout</a> </p>
 			{% block "primaryNav" %}
 				<ul>
+					<li><a href="{% url waggytails.views.dog_list %}">Add results</a></li>
+					<li><a href="{% url waggytails.views.dog_list %}">Enter show</a></li>
 					<li><a href="{% url waggytails.views.dog_list %}">Dogs</a></li>
 					<li><a href="{% url waggytails.views.calendar_view %}">Calendar</a></li>
 					<li><a href="{% url waggytails.views.show_list %}">Show list</a></li>

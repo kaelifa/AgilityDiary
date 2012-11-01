@@ -7,13 +7,15 @@
 {% block "contentMainHeading" %}This is the dog details page{% endblock %}
 {% block "content" %}
 	{% if dog %}
-	{% else %}
-	<p>Please add your dog</p>
+		<p><a href="{% url waggytails.views.dog_details %}">Add a dog</a></p>
 	{% endif %}
 	<form method="post">
 		{% csrf_token %}
 		{{ form.as_p }}
 		<button>Submit</button>
 	</form>
+	{% if dog %}
+		<p><a href="{% url waggytails.views.dog_details %}">Add a dog</a></p>
+	{% endif %}
 {% endblock %}
 
