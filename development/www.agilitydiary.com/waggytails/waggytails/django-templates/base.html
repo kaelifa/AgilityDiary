@@ -6,7 +6,8 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
-	<title>Agility Diary {% block "title" %}{% endblock %}</title>
+	<!-- TODO: Fix : if no title -->
+	<title>Agility Diary{% if 'title' %} : {% endif %}{% block "title" %}{% endblock %}</title>
 	<meta name="description" content="" />
 
 	<!-- TODO: Place favicon.ico and apple-touch-icon.png in the root directory -->

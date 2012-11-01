@@ -19,10 +19,10 @@ h5 {
 	font-weight: normal;
 }
 h1 {
-	@include font-size(11.0);
+	@include font-size(5.5);
 	@include logo-font-stack;
-	// font-size: 110px;
-	line-height: 120px;
+	// font-size: 55px;
+	line-height: 60px;
 	margin-top: 24px;
 	margin-bottom: 48px;
 }

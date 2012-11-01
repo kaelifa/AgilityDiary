@@ -384,52 +384,53 @@ html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+  overflow-y: scroll;
 }
 
-/* line 73, ../css-src/partials/global/_normalize.scss */
+/* line 74, ../css-src/partials/global/_normalize.scss */
 body {
   margin: 0;
 }
 
-/* line 85, ../css-src/partials/global/_normalize.scss */
+/* line 86, ../css-src/partials/global/_normalize.scss */
 a:focus {
   outline: thin dotted;
 }
 
-/* line 94, ../css-src/partials/global/_normalize.scss */
+/* line 95, ../css-src/partials/global/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
 }
 
-/* line 107, ../css-src/partials/global/_normalize.scss */
+/* line 108, ../css-src/partials/global/_normalize.scss */
 h1 {
   font-size: 2em;
 }
 
-/* line 115, ../css-src/partials/global/_normalize.scss */
+/* line 116, ../css-src/partials/global/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 124, ../css-src/partials/global/_normalize.scss */
+/* line 125, ../css-src/partials/global/_normalize.scss */
 b,
 strong {
   font-weight: bold;
 }
 
-/* line 132, ../css-src/partials/global/_normalize.scss */
+/* line 133, ../css-src/partials/global/_normalize.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 140, ../css-src/partials/global/_normalize.scss */
+/* line 141, ../css-src/partials/global/_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
 }
 
-/* line 152, ../css-src/partials/global/_normalize.scss */
+/* line 153, ../css-src/partials/global/_normalize.scss */
 code,
 kbd,
 pre,
@@ -438,24 +439,24 @@ samp {
   font-size: 1em;
 }
 
-/* line 161, ../css-src/partials/global/_normalize.scss */
+/* line 162, ../css-src/partials/global/_normalize.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-/* line 171, ../css-src/partials/global/_normalize.scss */
+/* line 172, ../css-src/partials/global/_normalize.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
-/* line 179, ../css-src/partials/global/_normalize.scss */
+/* line 180, ../css-src/partials/global/_normalize.scss */
 small {
   font-size: 80%;
 }
 
-/* line 188, ../css-src/partials/global/_normalize.scss */
+/* line 189, ../css-src/partials/global/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -464,46 +465,46 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 195, ../css-src/partials/global/_normalize.scss */
+/* line 196, ../css-src/partials/global/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 199, ../css-src/partials/global/_normalize.scss */
+/* line 200, ../css-src/partials/global/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 211, ../css-src/partials/global/_normalize.scss */
+/* line 212, ../css-src/partials/global/_normalize.scss */
 img {
   border: 0;
 }
 
-/* line 219, ../css-src/partials/global/_normalize.scss */
+/* line 220, ../css-src/partials/global/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 231, ../css-src/partials/global/_normalize.scss */
+/* line 232, ../css-src/partials/global/_normalize.scss */
 figure {
   margin: 0;
 }
 
-/* line 243, ../css-src/partials/global/_normalize.scss */
+/* line 244, ../css-src/partials/global/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
 
-/* line 255, ../css-src/partials/global/_normalize.scss */
+/* line 256, ../css-src/partials/global/_normalize.scss */
 legend {
   border: 0;
   padding: 0;
   white-space: normal;
 }
 
-/* line 270, ../css-src/partials/global/_normalize.scss */
+/* line 271, ../css-src/partials/global/_normalize.scss */
 button,
 input,
 select,
@@ -513,13 +514,13 @@ textarea {
   margin: 0;
 }
 
-/* line 282, ../css-src/partials/global/_normalize.scss */
+/* line 283, ../css-src/partials/global/_normalize.scss */
 button,
 input {
   line-height: normal;
 }
 
-/* line 297, ../css-src/partials/global/_normalize.scss */
+/* line 298, ../css-src/partials/global/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -528,20 +529,20 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* line 307, ../css-src/partials/global/_normalize.scss */
+/* line 308, ../css-src/partials/global/_normalize.scss */
 button[disabled],
 input[disabled] {
   cursor: default;
 }
 
-/* line 317, ../css-src/partials/global/_normalize.scss */
+/* line 318, ../css-src/partials/global/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-/* line 328, ../css-src/partials/global/_normalize.scss */
+/* line 329, ../css-src/partials/global/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
@@ -549,26 +550,26 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-/* line 341, ../css-src/partials/global/_normalize.scss */
+/* line 342, ../css-src/partials/global/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 350, ../css-src/partials/global/_normalize.scss */
+/* line 351, ../css-src/partials/global/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 360, ../css-src/partials/global/_normalize.scss */
+/* line 361, ../css-src/partials/global/_normalize.scss */
 textarea {
   overflow: auto;
   vertical-align: top;
 }
 
-/* line 373, ../css-src/partials/global/_normalize.scss */
+/* line 374, ../css-src/partials/global/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -597,10 +598,10 @@ h5 {
 
 /* line 21, ../css-src/partials/global/_typography.scss */
 h1 {
-  font-size: 110px;
-  font-size: 11rem;
+  font-size: 55px;
+  font-size: 5.5rem;
   font-family: 'Quicksand', Arial, "Helvetica Neue", Helvetica, sans-serif;
-  line-height: 120px;
+  line-height: 60px;
   margin-top: 24px;
   margin-bottom: 48px;
 }
@@ -675,6 +676,11 @@ label {
   cursor: pointer;
   display: inline-block;
   width: 33%;
+}
+
+/* line 18, ../css-src/partials/global/_form.scss */
+textarea {
+  resize: vertical;
 }
 
 /* line 4, ../css-src/partials/elements/_nav.scss */
