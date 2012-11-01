@@ -4,11 +4,9 @@
 
 {% block "pageHeading" %}Class Details{% endblock %}
 
-{% block "contentMainHeading" %}This is the class details page{% endblock %}
+{% block "contentMainHeading" %}This is the class details page for: {{ class_row }}{% endblock %}
 {% block "content" %}
-	<p>Hello: {{ class_row }}</p>
 	{% if class_row %}
-	you have a class_row
 	{% else %}
 	<p>Please add your class</p>
 	{% endif %}
