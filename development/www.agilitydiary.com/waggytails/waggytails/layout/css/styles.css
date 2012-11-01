@@ -677,6 +677,24 @@ label {
   width: 33%;
 }
 
+/* line 4, ../css-src/partials/elements/_nav.scss */
+nav ul,
+nav ol,
+nav li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1, ../css-src/partials/elements/_a.scss */
+a {
+  text-decoration: none;
+}
+/* line 3, ../css-src/partials/elements/_a.scss */
+a:hover {
+  text-decoration: underline;
+}
+
 /* line 1, ../css-src/partials/helpers/_sticky.scss */
 .sticky {
   position: fixed;

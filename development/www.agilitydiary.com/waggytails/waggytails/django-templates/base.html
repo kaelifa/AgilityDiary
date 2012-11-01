@@ -31,15 +31,17 @@
 			<!-- TODO: - Logout -->
 			<p>You are logged in as: <strong>{{ user }}</strong> ~ <a href="">Logout</a> </p>
 			{% block "primaryNav" %}
-				<ul>
-					<li><a href="{% url waggytails.views.dog_list %}">Add results</a></li>
-					<li><a href="{% url waggytails.views.dog_list %}">Enter show</a></li>
-					<li><a href="{% url waggytails.views.dog_list %}">Dogs</a></li>
-					<li><a href="{% url waggytails.views.calendar_view %}">Calendar</a></li>
-					<li><a href="{% url waggytails.views.show_list %}">Show list</a></li>
-					<li><a href="{% url waggytails.views.class_list %}">Class list</a></li>
-					<li><a href="{% url waggytails.views.user_details %}">My details</a></li>
-				</ul>
+				<nav class="navPrimary">
+					<ul>
+						<li><a href="{% url waggytails.views.dog_list %}">Add results</a></li>
+						<li><a href="{% url waggytails.views.dog_list %}">Enter show</a></li>
+						<li><a href="{% url waggytails.views.dog_list %}">Dogs</a></li>
+						<li><a href="{% url waggytails.views.calendar_view %}">Calendar</a></li>
+						<li><a href="{% url waggytails.views.show_list %}">Show list</a></li>
+						<li><a href="{% url waggytails.views.class_list %}">Class list</a></li>
+						<li><a href="{% url waggytails.views.user_details %}">My details</a></li>
+					</ul>
+				</nav>
 			{% endblock %}
 		</div>
 	</header>
