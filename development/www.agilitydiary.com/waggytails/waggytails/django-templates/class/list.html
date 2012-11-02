@@ -7,9 +7,12 @@
 {% block "contentMainHeading" %}This is the list of class(es) page{% endblock %}
 {% block "content" %}
 	<p><a href="{% url waggytails.views.class_details %}">Add a class</a></p>
+
 	<ol>
 		{% for class_row in classes %}
 		<li><a href="{% url waggytails.views.class_details id=class_row.id %}">{{ class_row.name }}</a></li>
 		{% endfor %}
 	</ol>
+
+
 {% endblock %}

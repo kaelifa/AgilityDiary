@@ -6,9 +6,13 @@
 
 {% block "contentMainHeading" %}This is the list of show(s) page{% endblock %}
 {% block "content" %}
+	{% if show %}
+	{% else %}
+		<p><a href="{% url waggytails.views.show_details %}">Enter a show</a></p>
+	{% endif %}
 	<ol>
 		{% for show in shows %}
-		<li><a href="{% url waggytails.views.show_details id=show.id %}">{{ show.name }}</a></li>
+		<li><a href="{% url waggytails.views.show_details id=show.id %}">{{ show.show_name }}</a></li>
 		{% endfor %}
 	</ol>
 {% endblock %}

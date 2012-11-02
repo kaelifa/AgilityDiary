@@ -3,16 +3,23 @@
 
 {% block "title" %}Show Details{% endblock %}
 
-{% block "pageHeading" %}{{ show_row }} Details{% endblock %}
+{% block "pageHeading" %}
+	{% if show_row %}
+		{{ show_row }} Details
+	{% else %}
+		Show Details
+	{% endif %}
+{% endblock %}
 
 {% block "contentMainHeading" %}
-	This is the show details page for: {{ show_row }}
+	This is the show details page
+	{% if show_row %} for: {{ show_row }}{% endif %}
 {% endblock %}
 
 {% block "content" %}
 	{% if show_row %}
 	{% else %}
-	<p>Please add your show</p>
+		<p>Please add your show</p>
 	{% endif %}
 	<form method="post">
 		{% csrf_token %}
