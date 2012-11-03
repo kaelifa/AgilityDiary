@@ -14,6 +14,18 @@
 	{% else %}
 	<p>Please add your class</p>
 	{% endif %}
+
+	<div>
+		Date: {{ class_row.show_date }}
+	</div>
+	<div>
+		Class Number: {{ class_row.class_number }}
+	</div>
+	<div>
+		Name: {{ class_row.name }}
+	</div>
+
+
 	<form method="post">
 		{% csrf_token %}
 
@@ -24,6 +36,13 @@
 			{% if field_name.errors %}
 				{{ field_name.errors }}
 			{% endif %}
+
+			{% if dog_error  %}
+				{% if field_name.label = "Dog name" %}
+					{{ dog_error }}
+				{% endif %}
+			{% endif %}
+
 		</div>
 		{% endfor %}
 

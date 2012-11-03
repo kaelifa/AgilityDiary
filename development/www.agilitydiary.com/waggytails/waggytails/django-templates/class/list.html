@@ -10,7 +10,7 @@
 
 	<ol>
 		{% for class_row in classes %}
-		<li><a href="{% url waggytails.views.class_details id=class_row.id %}">{{ class_row.name }}</a></li>
+		<li><a href="{% url waggytails.views.class_details class_id=class_row.id %}">{{ class_row.name }}</a></li>
 		{% endfor %}
 	</ol>
 
