@@ -11,26 +11,36 @@
 
 {% block "content" %}
 	{% if class_row %}
+		{% if class_row.show_date %}
+			<p>Date: {{ class_row.show_date }}</p>
+		{% endif %}
+		<p>Class Number: {{ class_row.class_number }}</p>
+		<p>Name: {{ class_row.name }}</p>
+		<p>Class Type: {{ class_row.class_type }}</p>
+		<p>Class Height: {{ class_row.class_height }}</p>
+		{% if class_row.class_grades %}
+			<p>Class Grades: {{ class_row.class_grades }}</p>
+		{% endif %}
+		<p>Judge: {{ class_row.judge }}</p>
+		{% if class_row.ring %}
+			<p>Ring Number: {{ class_row.ring }}</p>
+		{% endif %}
+		{% if class_row.class_size %}
+			<p>Class Size: {{ class_row.class_size }}</p>
+		{% endif %}
+		<p>Show: {{ class_row.show }}</p>
+		{% if class_row.qualifier %}
+			<p>Qualifier: {{ class_row.qualifier }}</p>
+		{% endif %}
 	{% else %}
-	<p>Please add your class</p>
+		<p>Please add your class</p>
 	{% endif %}
-
-	<div>
-		Date: {{ class_row.show_date }}
-	</div>
-	<div>
-		Class Number: {{ class_row.class_number }}
-	</div>
-	<div>
-		Name: {{ class_row.name }}
-	</div>
-
 
 	<form method="post">
 		{% csrf_token %}
 
 		{% for field_name in form %}
-		<div class="formField form{{ field_name.field.widget|widget_name }}">
+		<fieldset class="formField form{{ field_name.field.widget|widget_name }}">
 			<label for="{{ field_name.id_for_label }}">{{ field_name.label }}</label>
 			{{ field_name }}
 			{% if field_name.errors %}
@@ -43,11 +53,11 @@
 				{% endif %}
 			{% endif %}
 
-		</div>
+		</fieldset>
 		{% endfor %}
 
-		<div class="formField formSubmit">
+		<fieldset class="formField formSubmit">
 			<button>Submit</button>
-		</div>
+		</fieldset>
 	</form>
 {% endblock %}

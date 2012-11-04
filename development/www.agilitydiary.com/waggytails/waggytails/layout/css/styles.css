@@ -683,6 +683,11 @@ textarea {
   resize: vertical;
 }
 
+/* line 21, ../css-src/partials/global/_form.scss */
+fieldset {
+  border: none;
+}
+
 /* line 4, ../css-src/partials/elements/_nav.scss */
 nav ul,
 nav ol,
