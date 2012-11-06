@@ -9,6 +9,8 @@
 // * NB. This is the master Sass file which imports all the partials. No actual CSS should be written in this file.
 
 // ** @section: Compass */
+@import "compass/css3";
+
 // Your custom settings file to override Foundation defaults
 @import "settings";
 
@@ -17,7 +19,7 @@
 
 
 // ** @section: Variables */
-// @import "partials/variables/colour-palette";
+@import "partials/variables/colour-palette";
 @import "partials/variables/font-stacks";
 
 // ** @section: Mixins */
@@ -31,27 +33,30 @@
 @import "partials/global/typography";
 @import "partials/global/form";
 
-// ** @section: HTML5 Boilerplate */
-// @import "h5bp";
-
 // ** @section: Elements */
+@import "partials/elements/html";
+@import "partials/elements/body";
 @import "partials/elements/nav";
 @import "partials/elements/a";
+@import "partials/elements/hx";
 
 // ** @section: Scaffold */
 // @import "partials/scaffold/grid";
+
+// ** @section: Layout */
+@import "partials/layout/header";
+@import "partials/layout/footer";
 
 // ** @section: Navigation */
 @import "partials/navigation/primary";
 
 // ** @section: Modules */
-// @import "partials/modules/gutter";
+@import "partials/modules/logo";
 
 // ** @section: Plugins */
 // @import "partials/plugins/uniform-default";
 
 // ** @section: Helpers */
-// @import "partials/helpers/clearfix";
 @import "partials/helpers/sticky";
 
 // ** @section: Print */

@@ -1,0 +1,10 @@
+.logo {
+	a {
+		color: rgba(103, 184, 184, 0.5);
+		text-shadow: 0 1px 1px darkenrgba(103, 184, 184, 1);
+		&:hover,
+		&:visited {
+			// color: rgba(103, 184, 184, 1);
+		}
+	}
+}

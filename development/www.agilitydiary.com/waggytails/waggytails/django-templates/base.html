@@ -12,7 +12,8 @@
 
 	<!-- TODO: Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-	<link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css' />
+	<!-- <link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css' /> -->
+	<link href='http://fonts.googleapis.com/css?family=Righteous|Carter+One&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="/static/css/styles.css" />
 
 	<script src="/static/javascript/foundation/modernizr.foundation.js"></script>
@@ -23,33 +24,38 @@
 	<![endif]-->
 </head>
 <body>
-	<header class="layout-header row">
-		<div class="nine columns">
-			<h1><a href="{% url waggytails.views.home %}">{% block "siteHeading" %}AgilityDiary{% endblock %}</a></h1>
-			<h2>{% block "pageHeading" %}Base HTML Page{% endblock %}</h2>
-		</div>
-		<div class="three columns">
-			<!-- TODO: - Logout -->
-			<p>You are logged in as: <strong>{{ user }}</strong> ~ <a href="">Logout</a> </p>
-			{% block "primaryNav" %}
-				<nav class="navPrimary">
-					<ul>
-						<li><a href="{% url waggytails.views.dog_list %}">Add results</a></li>
-						<li><a href="{% url waggytails.views.dog_list %}">Enter show</a></li>
-						<li><a href="{% url waggytails.views.dog_list %}">Dogs</a></li>
-						<li><a href="{% url waggytails.views.calendar_view %}">Calendar</a></li>
-						<li><a href="{% url waggytails.views.show_list %}">Show list</a></li>
-						<li><a href="{% url waggytails.views.class_list %}">Class list</a></li>
-						<li><a href="{% url waggytails.views.user_details %}">My details</a></li>
-					</ul>
-				</nav>
-			{% endblock %}
+	<header class="layout-header" role="banner">
+		<div class="row">
+			<div class="nine columns">
+				<h1 class="logo"><a href="{% url waggytails.views.home %}">{% block "siteHeading" %}AgilityDiary{% endblock %}</a></h1>
+				<h2>{% block "pageHeading" %}Base HTML Page{% endblock %}</h2>
+			</div>
+			<div class="three columns">
+				<!-- TODO: - Logout -->
+				<p>You are logged in as: <strong>{{ user }}</strong> ~ <a href="">Logout</a> </p>
+				{% block "primaryNav" %}
+					<nav class="navPrimary">
+						<ul>
+							<li><a href="{% url waggytails.views.dog_list %}">Add results</a></li>
+							<li><a href="{% url waggytails.views.dog_list %}">Enter show</a></li>
+							<li><a href="{% url waggytails.views.dog_list %}">Dogs</a></li>
+							<li><a href="{% url waggytails.views.calendar_view %}">Calendar</a></li>
+							<li><a href="{% url waggytails.views.show_list %}">Show list</a></li>
+							<li><a href="{% url waggytails.views.class_list %}">Class list</a></li>
+							<li><a href="{% url waggytails.views.user_details %}">My details</a></li>
+						</ul>
+					</nav>
+				{% endblock %}
+			</div>
 		</div>
 	</header>
 
 	<div class="row">
 		<div class="twelve">
 			<h3>{% block "contentMainHeading" %}Contents{% endblock %}</h3>
+			<h4>Heading 4</h4>
+			<h5>Heading 5</h5>
+			<h6>Heading 6</h6>
 			{% block "sharedContent" %}
 			{% endblock %}
 			{% block "content" %}
@@ -58,10 +64,12 @@
 		</div>
 	</div>
 
-	<footer class="layout-footer row">
-		{% block "pageFooter" %}
-			<p>Copyright AgilityDiary 2012 ~ <a href="{% url waggytails.views.site_contact %}">Contact</a> ~ <a href="{% url waggytails.views.site_about %}">About</a></p>
-		{% endblock %}
+	<footer class="layout-footer">
+		<div class="row">
+			{% block "pageFooter" %}
+				<p>Copyright AgilityDiary 2012 ~ <a href="{% url waggytails.views.site_contact %}">Contact</a> ~ <a href="{% url waggytails.views.site_about %}">About</a></p>
+			{% endblock %}
+		</div>
 	</footer>
 </body>
 </html>
