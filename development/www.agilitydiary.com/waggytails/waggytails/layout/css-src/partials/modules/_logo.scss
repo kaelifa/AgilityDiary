@@ -1,7 +1,7 @@
 .logo {
 	a {
 		color: colourOpacity(0.5, $color-brand-primary);
-		// text-shadow: 0 1px 1px colourOpacity(0.5, $color-brand-primary);
+		// text-shadow: 0 1px 1px colourOpacity(0.5, $color-brand-complementary1);
 		text-shadow: 0 1px 1px $color-text-shadow;
 		&:hover {
 			color: colourOpacity(0.75, $color-brand-primary);
