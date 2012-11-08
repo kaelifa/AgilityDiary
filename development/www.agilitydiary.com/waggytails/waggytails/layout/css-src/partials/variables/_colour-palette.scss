@@ -1,17 +1,19 @@
 //Colour palette
-
 $color-white:				#fff;
 $color-black:				#000;
 $color-brand:				#000;
 
-// $color-brand-primary:		rgba(120, 192, 192, 1);
-$color-brand-primary:		120, 192, 192;
+// For use with rgba
+// $color-brand-primary:		120, 192, 192;
+$color-brand-primary:		22,147,165; //Dutch teal
 // $color-brand-secondary:		lighten($color-brand-primary, 20%);
-// $color-brand-tertiary:			darken($color-brand-primary, 40%);
+// $color-brand-tertiary:		darken($color-brand-primary, 40%);
 
-$color-brand-complementary:	rgba(120, 192, 192, 1);
+// $color-brand-complementary:	rgba(120, 192, 192, 1);
 
 $color-copy:				lighten($color-black, 10%);
+$color-text-shadow:			darken($color-white, 5%);
 // $color-default-link:			darken($color-brand-primary, 10%);
 
-$color-default-border:		lighten($color-black, 50%);
+// $color-default-link:		darken($color-brand-primary, 10%);
+// $color-default-border:		lighten($color-black, 50%);

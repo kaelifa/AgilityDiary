@@ -1,0 +1,8 @@
+@function colourOpacity($opacity, $a) {
+	@return rgba(
+		nth(append($a, $opacity), 1),
+		nth(append($a, $opacity), 2),
+		nth(append($a, $opacity), 3),
+		$opacity
+	);
+}

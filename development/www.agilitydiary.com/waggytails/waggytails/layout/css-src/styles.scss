@@ -22,6 +22,9 @@
 @import "partials/variables/colour-palette";
 @import "partials/variables/font-stacks";
 
+// ** @section: Functions */
+@import "partials/functions/colour-opacity";
+
 // ** @section: Mixins */
 @import "partials/mixins/font-sizing";
 

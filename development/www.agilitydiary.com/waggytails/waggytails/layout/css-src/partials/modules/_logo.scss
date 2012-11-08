@@ -1,11 +1,10 @@
 .logo {
 	a {
-		color: rgba(103, 184, 184, 0.75);
-		// text-shadow: 0 1px 1px rgba(103, 184, 184, 1);
-		// text-shadow: 0 1px 1px darken($color-brand-primary, 100);
-		&:hover,
-		&:visited {
-			color: rgba(103, 184, 184, 1);
+		color: colourOpacity(0.5, $color-brand-primary);
+		// text-shadow: 0 1px 1px colourOpacity(0.5, $color-brand-primary);
+		text-shadow: 0 1px 1px $color-text-shadow;
+		&:hover {
+			color: colourOpacity(0.75, $color-brand-primary);
 			text-decoration: none;
 		}
 	}

@@ -1,7 +1,5 @@
 .layout-header {
-	// background: rgba(120, 192, 192, 0.25);
-	background: rgba($color-brand-primary, 0.25) url("/static/template-images/background/agility3.png") repeat top left fixed;
-	// background: rgba(120, 192, 192, 0.25)  url("/static/template-images/background/agility3.png") repeat top left fixed;
+	background: colourOpacity(0.25, $color-brand-primary) url("/static/template-images/background/agility3.png") repeat top left fixed;
 	// background: url(../img/space-bg.png) repeat-x fixed -80% 0;
 	// background:
 	// 	url(../img/stars-1.png) repeat-x fixed -130% 0,
@@ -10,5 +8,5 @@
 	// 	url(../img/clouds.png) repeat-x fixed 100% 0;
 	// background-color: #1a1a1a;
 	// @include single-box-shadow;
-	@include box-shadow(rgba(103, 184, 184, 0.5) 2px 2px 10px);
+	@include box-shadow(colourOpacity(0.5, $color-brand-primary) 2px 2px 10px);
 }
