@@ -1,5 +1,7 @@
 .layout-header {
-	background: opacify($color-brand-primary, 0.25)  url("/static/template-images/background/agility3.png") repeat top left fixed;
+	// background: rgba(120, 192, 192, 0.25);
+	background: rgba($color-brand-primary, 0.25) url("/static/template-images/background/agility3.png") repeat top left fixed;
+	// background: rgba(120, 192, 192, 0.25)  url("/static/template-images/background/agility3.png") repeat top left fixed;
 	// background: url(../img/space-bg.png) repeat-x fixed -80% 0;
 	// background:
 	// 	url(../img/stars-1.png) repeat-x fixed -130% 0,
