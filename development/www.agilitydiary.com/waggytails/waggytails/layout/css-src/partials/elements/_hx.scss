@@ -1,8 +1,8 @@
 h2 {
-	color: colourOpacity(1, $color-brand-secondary);
+	color: colourOpacity(1, $color-brand-rgb-secondary);
 }
 h3 {
-	color: colourOpacity(1, $color-brand-tertiary);
+	color: colourOpacity(1, $color-brand-rgb-tertiary);
 }
 h4 {
 	// color: $color-copy;

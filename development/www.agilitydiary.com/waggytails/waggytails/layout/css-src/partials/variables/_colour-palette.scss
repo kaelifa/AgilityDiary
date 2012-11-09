@@ -23,6 +23,7 @@ $color-brand:				#000;
 // $color-brand-secondary:		192,41,66; // Cornucopia
 // $color-brand-tertiary:			217,91,67; // Saffron
 
+// (◕〝◕)
 // http://www.colourlovers.com/palette/629637/(%E2%97%95%E3%80%9D%E2%97%95)
 // $color-brand-primary:		131,175,155; // Duck egg
 // $color-brand-secondary:		254,67,101; // Cornucopia
@@ -37,12 +38,21 @@ $color-brand:				#000;
 // $color-brand-tertiary:			102,117,152; // Darkening sky
 
 // http://www.colourlovers.com/palette/1389950/teal_brocade
-$color-brand-primary:		66,147,152; // Rainforest
-$color-brand-secondary:		107,93,77; // Molasses
-$color-brand-tertiary:			176,161,143; // Natural twine
+// Hex
+$color-brand-primary:		#429398; // Rainforest
+$color-brand-secondary:		#6B5D4D; // Molasses
+$color-brand-tertiary:			#B0A18F; // Natural twine
 
-$color-brand-complementary1:	223,205,180; // Reed
-$color-brand-complementary2:	251,238,211; // Gypsy moth
+$color-brand-complementary1:	#DFCDB4; // Reed
+$color-brand-complementary2:	#FBEED3; // Gypsy moth
+
+// RBG
+$color-brand-rgb-primary:		66,147,152; // Rainforest - #429398
+$color-brand-rgb-secondary:		107,93,77; // Molasses - #6B5D4D
+$color-brand-rgb-tertiary:			176,161,143; // Natural twine - #B0A18F
+
+$color-brand-rgb-complementary1:	223,205,180; // Reed - #DFCDB4
+$color-brand-rgb-complementary2:	251,238,211; // Gypsy moth - #FBEED3
 
 
 
@@ -57,3 +67,4 @@ $color-text-shadow:			darken($color-white, 5%);
 
 // $color-default-link:		darken($color-brand-primary, 10%);
 // $color-default-border:		lighten($color-black, 50%);
+

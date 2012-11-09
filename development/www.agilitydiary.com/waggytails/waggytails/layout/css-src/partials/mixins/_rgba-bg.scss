@@ -1,0 +1,4 @@
+@mixin rgba-bg($hex, $a) {
+	// /* for modern browsers */
+	background-color: rgba($hex, ($a/100));
+}
