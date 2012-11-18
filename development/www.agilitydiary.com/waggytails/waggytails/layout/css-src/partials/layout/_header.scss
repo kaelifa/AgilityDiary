@@ -7,6 +7,6 @@
 	// 	url(../img/space-bg.png) repeat-x fixed -80% 0,
 	// 	url(../img/clouds.png) repeat-x fixed 100% 0;
 	@include rgba-bg($color-brand-primary, 25);
-	// @include single-box-shadow;
+	// @in clude single-box-shadow;
 	@include box-shadow(colourOpacity(0.5, $color-brand-rgb-primary) 2px 2px 10px);
 }
