@@ -1,0 +1,1689 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"b",
+				"background:   (property)"
+			],
+			[
+				"ad_",
+				"ad_home"
+			],
+			[
+				"ad",
+				"ad_settings"
+			],
+			[
+				"butt",
+				"buttonResults"
+			],
+			[
+				"but",
+				"buttonEntries"
+			],
+			[
+				"button",
+				"buttonCalendar"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"un",
+				"underline"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"list",
+				"list-style:   (property)"
+			],
+			[
+				"padding",
+				"padding-left:   (property)"
+			],
+			[
+				"forms",
+				"forms"
+			],
+			[
+				"ele",
+				"elements_list"
+			],
+			[
+				"djang",
+				"django-templates/"
+			],
+			[
+				"style",
+				"style_guide"
+			],
+			[
+				"cu",
+				"current_datetime"
+			],
+			[
+				"Dog",
+				"DogGender"
+			],
+			[
+				"dae",
+				"datetime"
+			],
+			[
+				"Show",
+				"ShowAddress"
+			],
+			[
+				"In",
+				"IntegerField"
+			],
+			[
+				"CH",
+				"CharField"
+			],
+			[
+				"nu",
+				"null"
+			],
+			[
+				"Ma",
+				"ManyToManyField"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"po",
+				"post_code"
+			],
+			[
+				"sho",
+				"show_secretary"
+			],
+			[
+				"Lo",
+				"Location"
+			],
+			[
+				"FOr",
+				"ForeignKey"
+			],
+			[
+				"Cl",
+				"ClassType"
+			],
+			[
+				"For",
+				"ForeignKey"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"EE",
+				"E5E5E5"
+			],
+			[
+				"content-e",
+				"content-elementbar"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "show-profile-Wallingford.markdown",
+			"settings":
+			{
+				"buffer_size": 1901,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "show-profile-Wallingford.html",
+			"settings":
+			{
+				"buffer_size": 4973,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/JSLint/JSLint.sublime-build",
+	"command_palette":
+	{
+		"height": 89.0,
+		"selected_items":
+		[
+			[
+				"show",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"syn mad",
+				"Set Syntax: Markdown"
+			],
+			[
+				"syn ma",
+				"Set Syntax: Markdown"
+			],
+			[
+				"ke",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"keu",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"cssl",
+				"CSSLint: Run CSSLint"
+			],
+			[
+				"lint",
+				"CSSLint: Run CSSLint"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"lore",
+				"Snippet: lorem - Short paragraph <p>"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"lorem",
+				"Snippet: lorem - Medium paragraph <p>"
+			],
+			[
+				"lor",
+				"Snippet: lorem - Medium paragraph"
+			],
+			[
+				"fetch",
+				"Fetch: Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"sideba",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"sideb",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"d",
+				"File: Duplicate"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pa in",
+				"Package Control: Install Package"
+			],
+			[
+				"upg",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"packa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"p in",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"todo",
+				"Set Syntax: Todo"
+			],
+			[
+				"du",
+				"File: Duplicate"
+			],
+			[
+				"syn py",
+				"Set Syntax: Python"
+			],
+			[
+				"sy py",
+				"Set Syntax: Python"
+			],
+			[
+				"syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"sy html",
+				"Set Syntax: HTML"
+			],
+			[
+				"sy ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"s h",
+				"Snippet: html"
+			],
+			[
+				"syn ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"lo",
+				"Snippet: lorem - One sentence"
+			],
+			[
+				"dupl",
+				"File: Duplicate"
+			],
+			[
+				"syn h",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn htm",
+				"Set Syntax: HTML5"
+			],
+			[
+				"pref",
+				"Preferences: Settings - User"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"quick",
+				"Quick File Creator: Create directory"
+			],
+			[
+				"mana",
+				"Fetch: Manage"
+			],
+			[
+				"zen",
+				"Zen Coding: Wrap zen as you type"
+			],
+			[
+				"zen ",
+				"Zen Coding: Zen as you type"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"setting de",
+				"Preferences: Settings - Default"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"fet",
+				"Fetch: Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"syn mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"fetc",
+				"Fetch: File"
+			],
+			[
+				"folder",
+				"Project: Add Folder"
+			],
+			[
+				"cssco",
+				"Sort via CSScomb"
+			],
+			[
+				"js",
+				"JSLint"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 275.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/index.html",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/default.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/variables/_colour-palette.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/js/controllers/sync.js",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/mixins/_font-stacks.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/partials/entries/index.html",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/modules/_button.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/elements/_body.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/mixins/_font-face.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/modules/_results-list.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/global/_typography.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/modules/_filter-list.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/modules/_number-of-days.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/modules/_data-list.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/elements/_form.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/elements/_html.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/modules/_icon.scss",
+		"/Users/kristina/Sites/agilitydiary/development/shows.agilitydiary.com/show-profile.md",
+		"/Users/kristina/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/kristina/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/kristina/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/default-layout/_footer.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/elements/_hx.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/mixins/_font-sizing.scss",
+		"/Users/kristina/Library/Application Support/Sublime Text 2/Packages/CSSLint/CSSLint.sublime-settings",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/js/filters.js",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/default-layout/_wrapper.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css/default.css",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/modules/_login.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/navigation/_admin.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/partials/show/editClass.html",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/elements/_hr.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css/app.css",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/partials/show/list.html",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/js/app.js",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/partials/calendar/index.html",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/partials/home/index.html",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/partials/show/listResults.html",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/js/controllers/settings.js",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/js/controllers/home.js",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/partials/friends/index.html",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/partials/settings/index.html",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/modules/_toggle.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/default-layout/_header.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/default-layout/_main.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/default-layout/_intro.scss",
+		"/Users/kristina/Downloads/icomoon83426/index.html",
+		"/Users/kristina/Downloads/icomoon83426/style.css",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/modules/_page-heading.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/modules/_logo.scss",
+		"/Users/kristina/Downloads/icomoon53770/style.css",
+		"/Users/kristina/Downloads/icomoon53770/index.html",
+		"/Users/kristina/Downloads/icomoon76926/style.css",
+		"/Users/kristina/Downloads/icomoon76926/index.html",
+		"/Users/kristina/Downloads/icomoon15332/index.html",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/navigation/_primary.scss",
+		"/Users/kristina/Downloads/icomoon47478/index.html",
+		"/Users/kristina/Downloads/icomoon47478/style.css",
+		"/Users/kristina/Downloads/icomoon29456/index.html",
+		"/Users/kristina/Downloads/icomoon29456/style.css",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/containers/_primary.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/dev/_debug.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/modules/_with-love.scss",
+		"/Users/kristina/Downloads/icomoon55180/index.html",
+		"/Users/kristina/Downloads/icomoon83422/style.css",
+		"/Users/kristina/Downloads/icomoon55180/style.css",
+		"/Users/kristina/Downloads/icomoon95201/style.css",
+		"/Users/kristina/Downloads/icomoon95201/index.html",
+		"/Users/kristina/Downloads/icomoon83422/index.html",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/settings/_susy.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/modules/_icon-menu.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/mixins/_line-height.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/partials/dog/list.html",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/elements/_a.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/modules/_sync-status.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/global/_normalize.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/global/_border-box.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/modules/_status.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/index.html.orig",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/partials/class/list.html",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/partials/handler/list.html",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/partials/gallery/test.html",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/partials/dog/add.html",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/css-src/partials/global/_FOUC.scss",
+		"/Users/kristina/Sites/javascript-tests/prototype1/app/config.rb",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/elements/_nav.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/kitchen-sink.html",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/styles.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/global/_typography.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/settings/_susy.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/default-layout/_footer.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/default-layout/_header.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/dev/_debug.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/dev/_dev-layout.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/config.rb",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css/styles.css",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/mixins/_font-stacks.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/global/_normalize.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/elements/_html.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/global/_selection.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/media/_print.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/elements/_hr.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/elements/_body.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/mixins/_font-sizing.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/default-layout/_main.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/default-layout/_body.scss",
+		"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials/variables/_colour-palette.scss",
+		"/Users/kristina/Sites/playground/vanilla/dev/vanillaBean/index.html",
+		"/Users/kristina/Sites/vanilla-build/Vanilla Build/404.html",
+		"/Users/kristina/Sites/vanilla-build/Vanilla Build/humans.txt",
+		"/Users/kristina/Library/Application Support/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/Users/kristina/Library/Application Support/Sublime Text 2/Packages/User/Git.sublime-settings",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css/styles.css",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/functions/_colour-opacity.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/elements/_hx.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/elements/_body.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/mixins/_rgba.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/styles.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/elements/_html.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/mixins/_font-sizing.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/functions/_colourOpacity.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/layout/_content.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/base.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/django-templates/show/details.html",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/global/_form.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/views.py",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src/partials/variables/_font-stacks.scss",
+		"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/models.py"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<project>",
+			"/Users/kristina/Sites/javascript-tests/prototype1/app/js",
+			"<project>",
+			"/Users/kristina/Sites/vanilla-build/Vanilla-HTML/css-src/partials",
+			"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/waggytails/waggytails/layout/css-src",
+			"waggytails/waggytails/django-templates",
+			"/waggytails/waggytails/django-templates",
+			"/Users/kristina/Sites/agilitydiary/development/www.agilitydiary.com/css-src/partials/h5bp/_normalize.scss",
+			"/Volumes/Projects/Dental Directory/Development/continuity-ecommerce-platform/Frontend/Views/Shared",
+			"/Volumes/Projects/Dental Directory/Development/continuity-ecommerce-platform/Frontend/Views/Product",
+			"/Volumes/Projects/Dental Directory/Development/continuity-ecommerce-platform/Frontend/Views/Shared",
+			"/Volumes/Projects/Dental Directory/Development/continuity-ecommerce-platform/Frontend/Views/Product",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\js",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials\\modules",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials\\modules",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\js",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials\\modules",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials\\modules",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css-src\\partials\\modules",
+			"",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Sites\\continuity\\core\\nodetypes",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Sites\\continuity\\core",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5\\Continuity\\workspace\\css",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-repo\\c5",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-demo-installation-repo\\c5-demo-installation\\brands\\partner-portal\\css-src\\partials",
+			"C:\\inetpub\\wwwroot\\C5-Demo\\development\\c5-demo\\build\\c5-demo-installation-repo\\c5-demo-installation\\brands\\partner-portal\\css",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\css",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl\\pagetemplates",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src\\partials",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl\\pagetemplates",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src\\partials",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl\\pagetemplates",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl\\pagetemplates",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\js",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src\\partials",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\js",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl\\pagetemplates",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl\\pagetemplates",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl\\pagetemplates",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src\\partials",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl\\pagetemplates",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src\\partials",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\src\\partials",
+			"C:\\Projects\\Bright Horizons\\development\\HG\\bright-horizons\\build\\bright-horizons-installation-repo\\installation\\bright-horizons-installation\\brands\\bright-horizons\\xsl"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"</p>",
+			"h2",
+			"comment",
+			"swit",
+			"<h2>",
+			"resultsListHeading",
+			"Distance",
+			"Name",
+			"filterByName",
+			"filterResults",
+			"colour",
+			"$color-brand-primary",
+			"calendar",
+			"Calendar",
+			"ad_calendar",
+			"friends",
+			"settings",
+			"on(",
+			"ad_friends",
+			"ad_entries",
+			"ad_calendar",
+			"ad_results",
+			"ad_settings",
+			"ad_home",
+			"hidden",
+			"users",
+			"bullhorn",
+			"containerPrimary",
+			"ad_home",
+			"news",
+			"News",
+			");",
+			"calendar",
+			"entries",
+			"matte",
+			"calendar",
+			"rgba",
+			"class=\"icon-",
+			"icon",
+			"layoutWrapper",
+			"3rem",
+			"Stencil",
+			"Abadi",
+			"Miso",
+			"Bariol",
+			"layoutWrapper",
+			"button",
+			"menuToggle",
+			"fonts/",
+			"Bariol",
+			"Quicksand",
+			"Bariol",
+			"Quicksand",
+			"green",
+			"<a  ",
+			"<li class=\"buttonHome\" ",
+			"matte",
+			"button",
+			"simple",
+			"<a ng-href",
+			"<a  href=\"#/",
+			"<li ",
+			"Calendar",
+			"calendar",
+			"tertiary",
+			"modified",
+			" 	",
+			"<ol/>",
+			"dogs",
+			"formSelect",
+			"thingy",
+			"filter",
+			"%;",
+			"1em",
+			"yellow",
+			"Home",
+			"filterListHeading",
+			"upcoming shows",
+			"collectplus.co.uk",
+			"upcoming shows",
+			";\n",
+			"ID_formSolitaryCheckbox",
+			"formfieldID13",
+			"formSolitaryCheckbox",
+			"formfieldID11",
+			"formTextarea",
+			"formfieldID09",
+			"formfieldID08",
+			"ID_formRadio01",
+			"formfieldID07",
+			"formfieldID06",
+			"formfieldID05",
+			"formfieldID04",
+			"formCheckbox",
+			"formfieldID12",
+			"formfieldID03",
+			"formfieldID10",
+			"formfieldID02",
+			"formInstructions",
+			"formRequired",
+			"formValid",
+			"formfieldID0103",
+			"formfieldID0102",
+			" class=\"\"",
+			"formfieldID0101",
+			"formfieldID01",
+			"formfieldID0102",
+			"formfieldID01",
+			"<label",
+			"formfieldID06",
+			"formfieldID03",
+			"formfieldID01",
+			"formfieldID06",
+			"formfieldID05",
+			"formfieldID04",
+			"Checkbox",
+			"checkbox",
+			"Checkbox",
+			"checkbox",
+			"3",
+			"dogGender",
+			"showStartDate",
+			"<h2 id=\"",
+			"\"template",
+			"<h2 id=\"",
+			"overview overview",
+			"class=\"inProgress\"",
+			"class=\"notStarted\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"	",
+			"</ol>",
+			"{% block \"title\" %}",
+			"*/\n",
+			"// 3",
+			"// 2",
+			"// 1",
+			"($double-radius);",
+			"($default-radius);",
+			"DDDDDD",
+			"#FFFF97;",
+			"#CCCCCC;",
+			"#EEEEEE;",
+			"#000000;",
+			"#BBBBBB;",
+			"#FFFFFF;",
+			"#E4ECF0;",
+			"#555555;",
+			"#DDDDDD;",
+			"#333333;",
+			"#EFEFEF",
+			"#666666;",
+			"#CCCCCC;",
+			"#000000;",
+			"#B8B8B9;",
+			"#FFFFFF;",
+			"#EEEEEE;",
+			"#FFFFFF;",
+			"#308CB5;",
+			"#EEEEEE;",
+			"#E9E9E9;",
+			"#DDDDDD;",
+			"<p class=\"prototype\">[/PROTOTYPE HTML]</p>",
+			"<p class=\"prototype\">[PROTOTYPE HTML]</p>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "show-profile-Wallingford.markdown",
+					"settings":
+					{
+						"buffer_size": 1901,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1046,
+								1046
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"function_name_status_row": 39,
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501",
+								"E401",
+								"W191"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "show-profile-Wallingford.html",
+					"settings":
+					{
+						"buffer_size": 4973,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1813,
+								1813
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"function_name_status_row": 55,
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501",
+								"E401",
+								"W191"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 472.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.csslint_result_view":
+	{
+		"height": 106.0
+	},
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"show-profile-Wallingford.html"
+			],
+			[
+				"but",
+				"css-src/partials/modules/_button.scss"
+			],
+			[
+				"def",
+				"css-src/default.scss"
+			],
+			[
+				"ico",
+				"css-src/partials/modules/_icon.scss"
+			],
+			[
+				"font",
+				"css-src/partials/mixins/_font-stacks.scss"
+			],
+			[
+				"bod",
+				"css-src/partials/elements/_body.scss"
+			],
+			[
+				"fons",
+				"css-src/partials/mixins/_font-stacks.scss"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"resu",
+				"css-src/partials/modules/_results-list.scss"
+			],
+			[
+				"icon",
+				"css-src/partials/modules/_icon.scss"
+			],
+			[
+				"foote",
+				"css-src/partials/default-layout/_footer.scss"
+			],
+			[
+				"",
+				"css-src/default.scss"
+			],
+			[
+				"fonts",
+				"css-src/partials/mixins/_font-stacks.scss"
+			],
+			[
+				"hx",
+				"css-src/partials/elements/_hx.scss"
+			],
+			[
+				"typ",
+				"css-src/partials/global/_typography.scss"
+			],
+			[
+				"fon",
+				"css-src/partials/mixins/_font-sizing.scss"
+			],
+			[
+				"fil",
+				"css-src/partials/modules/_filter-list.scss"
+			],
+			[
+				"filt",
+				"js/filters.js"
+			],
+			[
+				"data",
+				"css-src/partials/modules/_data-list.scss"
+			],
+			[
+				"defacss",
+				"css/default.css"
+			],
+			[
+				"wrap",
+				"css-src/partials/default-layout/_wrapper.scss"
+			],
+			[
+				"ht",
+				"css-src/partials/elements/_html.scss"
+			],
+			[
+				"col",
+				"css-src/partials/variables/_colour-palette.scss"
+			],
+			[
+				"form",
+				"css-src/partials/elements/_form.scss"
+			],
+			[
+				"showli",
+				"partials/show/list.html"
+			],
+			[
+				"app",
+				"js/app.js"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"clas",
+				"partials/show/editClass.html"
+			],
+			[
+				"entr",
+				"partials/entries/index.html"
+			],
+			[
+				"co",
+				"css-src/partials/variables/_colour-palette.scss"
+			],
+			[
+				"hom",
+				"partials/home/index.html"
+			],
+			[
+				"ap",
+				"js/app.js"
+			],
+			[
+				"ho",
+				"partials/home/index.html"
+			],
+			[
+				"set",
+				"partials/settings/index.html"
+			],
+			[
+				"main",
+				"css-src/partials/default-layout/_main.scss"
+			],
+			[
+				"tog",
+				"css-src/partials/modules/_toggle.scss"
+			],
+			[
+				"head",
+				"css-src/partials/default-layout/_header.scss"
+			],
+			[
+				"intr",
+				"css-src/partials/default-layout/_intro.scss"
+			],
+			[
+				"tyo",
+				"css-src/partials/global/_typography.scss"
+			],
+			[
+				"pal",
+				"css-src/partials/variables/_colour-palette.scss"
+			],
+			[
+				"homin",
+				"partials/home/index.html"
+			],
+			[
+				"ic",
+				"css-src/partials/modules/_icon.scss"
+			],
+			[
+				"setin",
+				"partials/settings/index.html"
+			],
+			[
+				"int",
+				"css-src/partials/default-layout/_intro.scss"
+			],
+			[
+				"log",
+				"css-src/partials/modules/_logo.scss"
+			],
+			[
+				"nav",
+				"css-src/partials/navigation/_primary.scss"
+			],
+			[
+				"de",
+				"css-src/partials/dev/_debug.scss"
+			],
+			[
+				"bu",
+				"css-src/partials/modules/_button.scss"
+			],
+			[
+				"logo",
+				"css-src/partials/modules/_logo.scss"
+			],
+			[
+				"togg",
+				"css-src/partials/modules/_toggle.scss"
+			],
+			[
+				"prim",
+				"css-src/partials/navigation/_primary.scss"
+			],
+			[
+				"foo",
+				"css-src/partials/default-layout/_footer.scss"
+			],
+			[
+				"wit",
+				"css-src/partials/modules/_with-love.scss"
+			],
+			[
+				"wra",
+				"css-src/partials/default-layout/_wrapper.scss"
+			],
+			[
+				"sus",
+				"css-src/partials/settings/_susy.scss"
+			],
+			[
+				"menu",
+				"css-src/partials/modules/_icon-menu.scss"
+			],
+			[
+				"fontst",
+				"css-src/partials/mixins/_font-stacks.scss"
+			],
+			[
+				"button",
+				"css-src/partials/modules/_button.scss"
+			],
+			[
+				"lin",
+				"css-src/partials/mixins/_line-height.scss"
+			],
+			[
+				"norm",
+				"css-src/partials/global/_normalize.scss"
+			],
+			[
+				"login",
+				"css-src/partials/modules/_login.scss"
+			],
+			[
+				"for",
+				"css-src/partials/elements/_form.scss"
+			],
+			[
+				"foot",
+				"css-src/partials/default-layout/_footer.scss"
+			],
+			[
+				"bord",
+				"css-src/partials/global/_border-box.scss"
+			],
+			[
+				"prima",
+				"css-src/partials/containers/_primary.scss"
+			],
+			[
+				"aelem",
+				"css-src/partials/elements/_a.scss"
+			],
+			[
+				"dog",
+				"partials/dog/list.html"
+			],
+			[
+				"footer",
+				"css-src/partials/default-layout/_footer.scss"
+			],
+			[
+				"layou",
+				"css-src/partials/default-layout/_wrapper.scss"
+			],
+			[
+				"prm",
+				"css-src/partials/navigation/_primary.scss"
+			],
+			[
+				"pr",
+				"css-src/partials/containers/_primary.scss"
+			],
+			[
+				"logi",
+				"css-src/partials/modules/_login.scss"
+			],
+			[
+				"conf",
+				"config.rb"
+			],
+			[
+				"ty",
+				"css-src/partials/global/_typography.scss"
+			],
+			[
+				"dogadd",
+				"partials/dog/add.html"
+			],
+			[
+				"copal",
+				"css-src/partials/variables/_colour-palette.scss"
+			],
+			[
+				"stscss",
+				"css-src/default.scss"
+			],
+			[
+				"layout",
+				"css-src/partials/development/_dev-layout.scss"
+			],
+			[
+				"sty",
+				"css-src/styles.scss"
+			],
+			[
+				"kit",
+				"kitchen-sink.html"
+			],
+			[
+				"st",
+				"css/styles.css"
+			],
+			[
+				"con",
+				"config.rb"
+			],
+			[
+				"styles",
+				"css/styles.css"
+			],
+			[
+				"det",
+				"waggytails/waggytails/django-templates/show/details.html"
+			],
+			[
+				"ba",
+				"waggytails/waggytails/django-templates/base.html"
+			],
+			[
+				"vie",
+				"waggytails/waggytails/views.py"
+			],
+			[
+				"vi",
+				"waggytails/waggytails/views.py"
+			],
+			[
+				"s",
+				"waggytails/waggytails/layout/css-src/styles.scss"
+			],
+			[
+				"ur",
+				"waggytails/waggytails/urls.py"
+			],
+			[
+				"b",
+				"waggytails/waggytails/django-templates/base.html"
+			],
+			[
+				"t",
+				"waggytails/waggytails/layout/css-src/partials/global/_typography.scss"
+			],
+			[
+				"u",
+				"waggytails/waggytails/urls.py"
+			],
+			[
+				"he",
+				"waggytails/waggytails/layout/css-src/partials/layout/_header.scss"
+			],
+			[
+				"f",
+				"waggytails/waggytails/forms.py"
+			],
+			[
+				"sidebar",
+				"waggytails/waggytails/layout/.sass-cache/57074ca2f01dfeffc80d1bdd40c0033de225e125/_shared.sassc"
+			],
+			[
+				"fo",
+				"waggytails/waggytails/forms.py"
+			],
+			[
+				"lis",
+				"waggytails/waggytails/django-templates/class/list.html"
+			],
+			[
+				"mod",
+				"waggytails/waggytails/models.py"
+			],
+			[
+				"no",
+				"waggytails/waggytails/layout/css-src/partials/global/_normalize.scss"
+			],
+			[
+				"deta",
+				"waggytails/waggytails/django-templates/class/details.html"
+			],
+			[
+				"sho",
+				"waggytails/waggytails/django-templates/show/list.html"
+			],
+			[
+				"mo",
+				"waggytails/waggytails/models.py"
+			],
+			[
+				"show",
+				"waggytails/waggytails/django-templates/show/list.html"
+			],
+			[
+				"list",
+				"waggytails/waggytails/django-templates/dog/list.html"
+			],
+			[
+				"v",
+				"waggytails/waggytails/views.py"
+			],
+			[
+				"l",
+				"waggytails/waggytails/django-templates/registration/login.html"
+			],
+			[
+				"li",
+				"waggytails/waggytails/django-templates/style-guide/snippets/elements/Link"
+			],
+			[
+				"ma",
+				"waggytails/manage.py"
+			],
+			[
+				"man",
+				"waggytails/manage.py"
+			],
+			[
+				"view",
+				"waggytails/waggytails/views.py"
+			],
+			[
+				"se",
+				"waggytails/waggytails/settings.py"
+			],
+			[
+				"or",
+				"waggytails/waggytails/django-templates/style-guide/snippets/elements/Ordered list"
+			],
+			[
+				"un",
+				"waggytails/waggytails/django-templates/style-guide/snippets/elements/Unordered list"
+			],
+			[
+				"tex",
+				"waggytails/waggytails/django-templates/style-guide/snippets/form/Text field"
+			],
+			[
+				"00",
+				"waggytails/waggytails/migrations/0003_auto__del_dogsex__add_doggender__del_field_dog_dog_sex__add_field_dog_.py"
+			],
+			[
+				"nor",
+				"css-src/partials/global/_normalize.scss"
+			],
+			[
+				".scss",
+				".sass-cache/28018ba867f95362aa622a1c7043038960f456c6/ie.scssc"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/kristina/Sites/kaelifa.com/www.kaelifa.com.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 208.0,
+	"status_bar_visible": true
+}
